@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .carousel-container {
+   /* background: linear-gradient(to bottom right, #ff4500, #0080ff); */
+   background: -webkit-repeating-linear-gradient(45deg, #ff4500, #0080ff);
+    padding: 0px;
+    border-radius: 15px;
+  }
+  
+  .carousel {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
