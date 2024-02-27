@@ -3,13 +3,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   
+  .segundapagBody{
+   background-color: rgb(244, 138, 18);
+   background: linear-gradient(to right, rgb(244, 138, 18), antiquewhite); width: 100%; height: 200px;
+  }
   .carousel-container {
    /* background: linear-gradient(to bottom right, #ff4500, #0080ff); */
-   background: -webkit-repeating-linear-gradient(45deg, #ff4500, #0080ff);
+    background: -webkit-repeating-linear-gradient(45deg, rgb(244, 138, 18), antiquewhite);
     padding: 0px;
     border-radius: 15px;
   }
   
+  .bordesImagenes{
+    border-image: round;
+  }
   .carousel {
     border-radius: 15px;
     overflow: hidden;
@@ -19,4 +26,21 @@ body {
     border-radius: 15px;
     overflow: hidden;
   }
-  
+
+  .colornav{
+    background-color: antiquewhite;
+    -webkit-text-fill-color: rgb(244, 138, 18);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .colorTextoImp{
+    -webkit-text-fill-color: rgb(244, 138, 18);
+  }
+  .colorTextoMid{
+    -webkit-text-fill-color: rgb(0,0,0);
+  }
+  .seccioncolor{
+    background-color: white;
+    -webkit-text-fill-color: rgb(244, 138, 18);
+    border-radius: 15px;
+  }
